@@ -40,9 +40,7 @@ const Blog = () => {
         <Accordion.Header>What's the difference between a chef and a cook?</Accordion.Header>
         <Accordion.Body>
         While both chefs and cooks prepare food, chefs typically have more advanced culinary skills, often oversee the kitchen, create menus, and make important culinary decisions. Cooks, on the other hand, may focus on specific tasks and follow established recipes.
-
-
-        </Accordion.Body>
+  </Accordion.Body>
       </Accordion.Item>
     </Accordion>
     </div>
