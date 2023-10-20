@@ -11,7 +11,7 @@ const Login = () => {
   let[error ,Seterror]=useState('')
   let location=useLocation();
   let navigate=useNavigate();
-  let from=location.state?.from?.pathname || '/login';
+  let from=location.state?.from?.pathname || '/';
 let handlelogin = e =>{
     e.preventDefault();
     let form=e.target;
