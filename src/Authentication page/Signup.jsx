@@ -34,12 +34,12 @@ createUser(email,password)
 
     return (
         <div>
-             <div className='  my-5 container'>
+             <div className='  my-5 mx-auto' style={{maxWidth:'80%'}}>
    
 
    <h1 className='text-center text-dark fw-bold text-uppercase'>SIgn up NOw</h1>
    
-       <Card className='mx-auto w-50 my-5' >
+       <Card className='mx-auto my-5' >
    
        <form onSubmit={handleSignup}  className='m-5'>
   

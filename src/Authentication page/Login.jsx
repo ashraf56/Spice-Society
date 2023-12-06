@@ -64,12 +64,12 @@ navigate(from , {replace:true});
 
     return (
 
- <div className='  my-5 container'>
+ <div className='mx-auto my-5 ' style={{maxWidth:'70%'}}>
    
 
 <h1 className='text-center text-dark fw-bold text-uppercase'>Log IN NOw</h1>
 
-    <Card className='mx-auto w-50 my-5' >
+    <Card className=' mx-auto  my-5 ' >
 
     <form onSubmit={handlelogin}  className='m-5'>
   <div className="mb-3 w-100">
