@@ -9,39 +9,39 @@ import ProtectedRoute from "./ProtectedRoute";
 import Errorpage from "../ErrorPage/Errorpage";
 
 const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <App></App>,
-      errorElement:<Errorpage></Errorpage>,
-      children:[
-{
-    path:'/',
-    element:<Home></Home>
-},
-{
-    path:'/blog',
-    element:<Blog/>
-},
-{
-  path:'/chef/:id',
-  element:<ProtectedRoute>,
-    <DetailChef></DetailChef>
-  </ProtectedRoute>
-  ,
-  loader: ({params})=> fetch(`https://b7a10-chef-recipe-hunter-server-side-ashraf56.vercel.app/chef/${params.id}`)
-},
-{
-  path:'/login',
-  element:<Login></Login>
-},
-{
-  path:'/signup',
-  element:<Signup/>
-},
+  {
+    path: "/",
+    element: <App></App>,
+    errorElement: <Errorpage></Errorpage>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path: '/blog',
+        element: <Blog />
+      },
+      {
+        path: '/chef/:id',
+        element: <ProtectedRoute>,
+          <DetailChef></DetailChef>
+        </ProtectedRoute>
+        ,
+        loader: ({ params }) => fetch(`https://b7a10-chef-recipe-hunter-server-side-ashraf56.vercel.app/chef/${params.id}`)
+      },
+      {
+        path: '/login',
+        element: <Login></Login>
+      },
+      {
+        path: '/signup',
+        element: <Signup />
+      },
 
 
-      ]
-    },
-  ]);
+    ]
+  },
+]);
 
-  export default router;
+export default router;

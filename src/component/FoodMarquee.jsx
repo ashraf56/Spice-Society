@@ -12,19 +12,19 @@ const FoodMarquee = () => {
         <div className='pb-5'>
             <h1 className='fw-bold text-center py-5'>Some Delicious recipe</h1>
             <div className='container'>
-               <Marquee speed='150'>
- <div >
-     <img src={img1} className=' img-fluid ' />
-  <img src={img2} className='img-fluid ' />
-  <img src={img3} className='img-fluid ' />
-  <img src={img4} className='img-fluid ' />
-  <img src={img5} className='img-fluid ' />
- </div>
- 
+                <Marquee speed='150'>
+                    <div >
+                        <img src={img1} className=' img-fluid ' />
+                        <img src={img2} className='img-fluid ' />
+                        <img src={img3} className='img-fluid ' />
+                        <img src={img4} className='img-fluid ' />
+                        <img src={img5} className='img-fluid ' />
+                    </div>
 
-</Marquee> 
+
+                </Marquee>
             </div>
-            
+
         </div>
     );
 };

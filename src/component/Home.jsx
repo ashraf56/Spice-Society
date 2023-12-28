@@ -7,10 +7,10 @@ import FoodMarquee from './FoodMarquee';
 const Home = () => {
     return (
         <div className='justify-content-center'>
-           <Banner/>
-           <About/>
-           <Chefs/>
-           <FoodMarquee/>
+            <Banner />
+            <About />
+            <Chefs />
+            <FoodMarquee />
         </div>
     );
 };

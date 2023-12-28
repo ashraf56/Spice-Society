@@ -8,9 +8,9 @@ const ErrorPage = () => {
     <section className='d-flex   m-5'>
       <div className='container mt-5 px-5 mx-auto my-8'>
         <div className='text-center'>
-         <img src={img}    />   
+          <img src={img} />
         </div>
-    
+
 
         <div className='text-center'>
           <h2 className='mb-8 fw-bold  '>
