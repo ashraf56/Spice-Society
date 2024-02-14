@@ -7,7 +7,7 @@ const Chefs = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
-      fetch('https://b7a10-chef-recipe-hunter-server-side-ashraf56.vercel.app/chef')
+      fetch('https://spice-society-server.vercel.app/chef')
         .then(res => res.json()).then(data => setChef(data))
       setIsLoading(false);
     }, 3000);

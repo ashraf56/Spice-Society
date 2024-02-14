@@ -28,7 +28,7 @@ const router = createBrowserRouter([
           <DetailChef></DetailChef>
         </ProtectedRoute>
         ,
-        loader: ({ params }) => fetch(`https://b7a10-chef-recipe-hunter-server-side-ashraf56.vercel.app/chef/${params.id}`)
+        loader: ({ params }) => fetch(`https://spice-society-server.vercel.app/chef/${params.id}`)
       },
       {
         path: '/login',
