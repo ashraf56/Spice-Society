@@ -44,7 +44,7 @@ const Header = () => {
                 <div className="nav-link"  >
                   {user ? <>
                     {user.photoURL ?
-                      <img src={user.photoURL} data-tooltip-id="my-tooltip" data-tooltip-content={user.displayName} style={{ width: '50px', borderRadius: '50px' }} /> :
+                      <img src={user.photoURL} data-tooltip-id="my-tooltip" data-tooltip-content={user.displayName} style={{ width: '40px', borderRadius: '40px' }} /> :
                       <FaUserCircle className='fs-2' />
                     }<Tooltip id="my-tooltip" />
                     <span className='btn' onClick={signOut}>Logout</span>

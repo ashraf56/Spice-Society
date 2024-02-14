@@ -19,6 +19,8 @@ Spice Society is built with the following technologies:
  - Firebase 
  - React awsome components
  - Vite 
+ - Context API
+ - 
 
 # **Demo**
 

@@ -2,7 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import LazyLoad from 'react-lazy-load';
 import { FaThumbsUp } from 'react-icons/fa';
 const Recipe = ({ Chef }) => {
   let { id, likes, chef_picture, description, chef_name, years_of_experience, number_of_recipes } = Chef;
@@ -17,8 +16,8 @@ const Recipe = ({ Chef }) => {
               Discover  Chef: <span className='text-danger'> {chef_name}</span>
             </h3>
             <div className='rounded-start-pill'>
-              <LazyLoad height={500} >
-                <img src={chef_picture} alt="" className=' img-fluid rounded-5 ' /></LazyLoad>
+             
+                <img src={chef_picture} alt="" className=' img-fluid rounded-5 ' />
             </div>
 
 
