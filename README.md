@@ -20,6 +20,8 @@ Spice Society is built with the following technologies:
  - React awsome components
  - Vite 
  - Context API
+ - Node js
+ - Express js
 
 
 # **Demo**
